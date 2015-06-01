@@ -1,3 +1,6 @@
+############################
+# This is a sample for the format of config file
+############################
 # chisel 2.3.7.34
 version:1.7
 modname:chisel
@@ -6,14 +9,6 @@ cfgfile:config/chisel.cfg
 
 texturepath:assets/chisel/textures/blocks/
 
-
-
 texture:id=chisel.stonebrick_fancy,filename=assets/chisel/textures/blocks/stonebrick/fancy.png
 
-
-
-
-
 block:id=%stonebricksmooth,data=9,stdrot=true,allfaces=0:chisel.stonebrick_fancy
-
-

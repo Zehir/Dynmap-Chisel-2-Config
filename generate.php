@@ -176,7 +176,7 @@ function addTexture($currentID, $args) {
     }
     
     $textureName = str_replace("\"", "", $functionArgs[2]);
-
+    
     $texturesList[$currentID]['variations'][$functionArgs[1]] = $textureName;
     
     if (constant("DEBUG")) {
@@ -351,7 +351,7 @@ foreach ($texturesList as $id => $data) {
             $variation_kind = 0;
         } 
         else {
-            Print ("No valid textures found for chisel block variation '" . $data['bloc_id'] . "' ($textureFile)\n");
+            print ("No valid textures found for chisel block variation '" . $data['bloc_id'] . "' ($textureFile)\n");
             continue;
         }
         
