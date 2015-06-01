@@ -1,8 +1,14 @@
 ##Dynmap Chisel 2 Config
 
 ###Usage
-In main folder run this command:
-`php generate.php >> chisel-texture.txt`
+####Basic Usage
+You can download the file chisel-texture.txt and add it into your server in directory: SERVER_ROOT/dynmap/renderdata/chisel-texture.txt
+
+####Developper
+To generate the new config file run this command:
+```bash
+php generate.php >> chisel-texture.txt
+```
 
 ###Contributing
 ***
