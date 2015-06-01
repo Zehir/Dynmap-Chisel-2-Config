@@ -1,8 +1,8 @@
 ##Dynmap Chisel 2 Config
 
 ###Usage
-In main folder run this command;
-php generate.php >> chisel-texture.txt
+In main folder run this command:
+`php generate.php >> chisel-texture.txt`
 
 ###Contributing
 ***
