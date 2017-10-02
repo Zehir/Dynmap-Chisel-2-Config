@@ -1,18 +1,18 @@
-##Dynmap Chisel 2 Config
+## Dynmap Chisel 2 Config
 
-###Usage
-####Basic Usage
+### Usage
+#### Basic Usage
 You can download the file chisel-texture.txt and add it into your server in directory: SERVER_ROOT/dynmap/renderdata/chisel-texture.txt
 
-####Developer
+#### Developer
 To generate the new config file run this command:
 ```bash
 php generate.php >> chisel-texture.txt
 ```
 
-###Contributing
+### Contributing
 ***
-####Submitting a PullRequest
+#### Submitting a PullRequest
 So you found a bug in zehir's code?  Think you can make it more efficient?  Want to help in general?  Great!
 
 1. If you haven't already, create a Github account.
@@ -23,7 +23,7 @@ So you found a bug in zehir's code?  Think you can make it more efficient?  Want
 5. Click `Click to create a pull request for this comparison`, enter your PR's title, and create a detailed description telling pahimar what you changed.
 6. Click `Send pull request`, and wait for feedback!
 
-####Creating an Issue
+#### Creating an Issue
 Have a suggestion?  Found a bug?  Create an issue now!
 
 1. Make sure your issue hasn't already been answered or fixed.  Also think about whether your issue is a valid one before submitting it.
